@@ -167,7 +167,7 @@ public class Principal {
             System.out.println("\n");
         }
 
-        driver.close();
+        driver.quit();
     }
 
     private String pegarDataHora(){
